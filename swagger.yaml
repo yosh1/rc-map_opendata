@@ -1,0 +1,69 @@
+swagger: "2.0"
+info:
+  description: "踏切マップAPI"
+  version: "v1"
+  title: "Railroad Crossing Map API"
+host: "api.rc-map.com"
+basePath: "/v1/"
+schemes:
+- "https"
+paths:
+  /all:
+    get:
+      tags:
+      - "Data"
+      summary: ""
+      description: ""
+      operationId: "getData"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful"
+          schema:
+            type: "array"
+            items:
+              $ref: '#/definitions/Response'
+definitions:
+  Response:
+    type: "object"
+    properties:
+      rc_id:
+        type: "integer"
+        format: "int64"
+        example: 1
+        description: "管理ID"
+      rc_address:
+        type: "string"
+        example: "兵庫県加古川市加古川町中津字樋掛388-2"
+        description: "住所"
+      rc_name:
+        type: "string"
+        example: "日岡第二"
+        description: "踏切道名"
+      rc_kana:
+        type: "string"
+        example: "ひおかだいに"
+        description: "踏切道名かな"
+      lat:
+        type: "number"
+        format: "float"
+        example: 34.770854
+        description: "緯度"
+      lng:
+        type: "number"
+        format: "float"
+        example: 134.850095
+        description: "経度"
+      transportation_bureau:
+        type: "string"
+        example: "近畿"
+        description: "運輸局"
+      prefectures_name:
+        type: "string"
+        example: "兵庫"
+        description: "都道府県名"
+      route_name:
+        type: "string"
+        example: "加古川線"
+        description: "路線名"
