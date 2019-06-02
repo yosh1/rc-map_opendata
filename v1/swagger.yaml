@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
-  description: "踏切マップAPI"
+  description: "踏切に関するデータをJSON形式で配信するAPIです。\n最終更新: 2019/06/03 08:36 (JST)"
   version: "v1"
-  title: "Railroad Crossing Map API"
+  title: "踏切マップAPI for Public"
 host: "api.rc-map.com"
 basePath: "/v1/"
 schemes:
@@ -11,10 +11,90 @@ paths:
   /all:
     get:
       tags:
-      - "Data"
+      - "全て"
       summary: ""
       description: ""
-      operationId: "getData"
+      operationId: "getAllData"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful"
+          schema:
+            type: "array"
+            items:
+              $ref: '#/definitions/Response'
+  /prefecture/hyogo:
+    get:
+      tags:
+      - "都道府県別"
+      summary: ""
+      description: ""
+      operationId: "getHyogoData"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful"
+          schema:
+            type: "array"
+            items:
+              $ref: '#/definitions/Response'
+  /route/ako:
+    get:
+      tags:
+      - "路線別"
+      summary: ""
+      description: "JR赤穂線"
+      operationId: "getAkoData"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful"
+          schema:
+            type: "array"
+            items:
+              $ref: '#/definitions/Response'
+  /route/kakogawa:
+    get:
+      tags:
+      - "路線別"
+      summary: ""
+      description: "JR加古川線"
+      operationId: "getKakogawaData"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful"
+          schema:
+            type: "array"
+            items:
+              $ref: '#/definitions/Response'
+  /route/sanyo:
+    get:
+      tags:
+      - "路線別"
+      summary: ""
+      description: "JR山陽本線"
+      operationId: "getSanyoData"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful"
+          schema:
+            type: "array"
+            items:
+              $ref: '#/definitions/Response'
+  /route/kishin:
+    get:
+      tags:
+      - "路線別"
+      summary: ""
+      description: "JR姫新線"
+      operationId: "getKishinData"
       produces:
       - "application/json"
       responses:
@@ -59,7 +139,7 @@ definitions:
         type: "string"
         example: "近畿"
         description: "運輸局"
-      prefectures_name:
+      prefecture_name:
         type: "string"
         example: "兵庫"
         description: "都道府県名"
