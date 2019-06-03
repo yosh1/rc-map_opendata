@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: "踏切に関するデータをJSON形式で配信するAPIです。\n最終更新: 2019/06/03 08:36 (JST)"
+  description: "踏切に関するデータをJSON形式で配信するAPIです。"
   version: "v1"
   title: "踏切マップAPI for Public"
 host: "api.rc-map.com"
@@ -12,7 +12,7 @@ paths:
     get:
       tags:
       - "全て"
-      summary: ""
+      summary: "全てのデータを返します"
       description: ""
       operationId: "getAllData"
       produces:
@@ -24,11 +24,11 @@ paths:
             type: "array"
             items:
               $ref: '#/definitions/Response'
-  /prefecture/hyogo:
+  /prefecture/:prefecture_name:
     get:
       tags:
       - "都道府県別"
-      summary: ""
+      summary: "都道府県名に沿ったデータを返します"
       description: ""
       operationId: "getHyogoData"
       produces:
@@ -40,61 +40,13 @@ paths:
             type: "array"
             items:
               $ref: '#/definitions/Response'
-  /route/ako:
+  /route/:route_name:
     get:
       tags:
       - "路線別"
-      summary: ""
-      description: "JR赤穂線"
+      summary: "路線名に沿ったデータを返します"
+      description: ""
       operationId: "getAkoData"
-      produces:
-      - "application/json"
-      responses:
-        200:
-          description: "successful"
-          schema:
-            type: "array"
-            items:
-              $ref: '#/definitions/Response'
-  /route/kakogawa:
-    get:
-      tags:
-      - "路線別"
-      summary: ""
-      description: "JR加古川線"
-      operationId: "getKakogawaData"
-      produces:
-      - "application/json"
-      responses:
-        200:
-          description: "successful"
-          schema:
-            type: "array"
-            items:
-              $ref: '#/definitions/Response'
-  /route/sanyo:
-    get:
-      tags:
-      - "路線別"
-      summary: ""
-      description: "JR山陽本線"
-      operationId: "getSanyoData"
-      produces:
-      - "application/json"
-      responses:
-        200:
-          description: "successful"
-          schema:
-            type: "array"
-            items:
-              $ref: '#/definitions/Response'
-  /route/kishin:
-    get:
-      tags:
-      - "路線別"
-      summary: ""
-      description: "JR姫新線"
-      operationId: "getKishinData"
       produces:
       - "application/json"
       responses:
