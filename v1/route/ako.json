@@ -1,0 +1,188 @@
+[{
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "那波",
+        "rc_kana": "なば",
+        "rc_address": "兵庫県相生市那波字深辺1888-3",
+        "lat": 34.80691613,
+        "lng": 134.459379,
+        "kilometer": 2.086
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "浜市第二",
+        "rc_kana": "はまいちだいに",
+        "rc_address": "兵庫県赤穂市坂越字寺内314-2",
+        "lat": 34.76760893,
+        "lng": 134.4224782,
+        "kilometer": 7.51
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "砂子",
+        "rc_kana": "まなご",
+        "rc_address": "兵庫県赤穂市坂越字茶木内99-4",
+        "lat": 34.76696801,
+        "lng": 134.4150671,
+        "kilometer": 8.126
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "北野中第二",
+        "rc_kana": "きたのなかだいに",
+        "rc_address": "兵庫県赤穂市北野中字瓦師289-2",
+        "lat": 34.76299062,
+        "lng": 134.4102288,
+        "kilometer": 8.75
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "北野中第三",
+        "rc_kana": "きたのなかだいさん",
+        "rc_address": "兵庫県赤穂市北野中字新田402-2",
+        "lat": 34.76077342,
+        "lng": 134.4075388,
+        "kilometer": 9.096
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "北野中第四",
+        "rc_kana": "きたのなかだいよん",
+        "rc_address": "兵庫県赤穂市南野中字島田166-2",
+        "lat": 34.76022996,
+        "lng": 134.4068886,
+        "kilometer": 9.182
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "南野中第一",
+        "rc_kana": "みなみのなかだいいち",
+        "rc_address": "兵庫県赤穂市南野中字島田203-19",
+        "lat": 34.75926404,
+        "lng": 134.405638,
+        "kilometer": 9.34
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "南野中第二",
+        "rc_kana": "みなみのなかだいに",
+        "rc_address": "兵庫県赤穂市南野中字島田251-2",
+        "lat": 34.75794186,
+        "lng": 134.4032731,
+        "kilometer": 9.605
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "加里屋第一",
+        "rc_kana": "かりやだいいち",
+        "rc_address": "兵庫県赤穂市中広字別所108-11",
+        "lat": 34.75679994,
+        "lng": 134.3989379,
+        "kilometer": 10.019
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "加里屋第三",
+        "rc_kana": "かりやだいさん",
+        "rc_address": "兵庫県赤穂市加里屋字中州22-3",
+        "lat": 34.75669021,
+        "lng": 134.3965479,
+        "kilometer": 10.238
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "加里屋第四",
+        "rc_kana": "かりやだいよん",
+        "rc_address": "兵庫県赤穂市加里屋字岩453-3",
+        "lat": 34.7566533,
+        "lng": 134.3898254,
+        "kilometer": 10.852
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "三ツ樋元第一",
+        "rc_kana": "みつひもとだいいち",
+        "rc_address": "兵庫県赤穂市新田字三ツ樋元999-6",
+        "lat": 34.75396527,
+        "lng": 134.3768526,
+        "kilometer": 12.104
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "前田",
+        "rc_kana": "まえだ",
+        "rc_address": "兵庫県赤穂市鷆和字古浜623",
+        "lat": 34.75060584,
+        "lng": 134.3551392,
+        "kilometer": 14.164
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "野々内第二",
+        "rc_kana": "ののうちだいに",
+        "rc_address": "兵庫県赤穂市鷆和字野々内1121-3",
+        "lat": 34.74858943,
+        "lng": 134.3498589,
+        "kilometer": 14.691
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "野々内第四",
+        "rc_kana": "ののうちだいよん",
+        "rc_address": "兵庫県赤穂市鷆和字野々内1096-4",
+        "lat": 34.74712334,
+        "lng": 134.3460293,
+        "kilometer": 15.077
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "野々内第五",
+        "rc_kana": "ののうちだいご",
+        "rc_address": "兵庫県赤穂市鷆和字野々内1079-26",
+        "lat": 34.7465113,
+        "lng": 134.3442117,
+        "kilometer": 15.258
+    },
+    {
+        "transportation_bureau": "近畿",
+        "prefecture_name": "兵庫",
+        "route_name": "赤穂線",
+        "rc_name": "福浦第一",
+        "rc_kana": "ふくうらだいいち",
+        "rc_address": "兵庫県赤穂市福浦字東木場3103-8",
+        "lat": 34.7467255,
+        "lng": 134.3297487,
+        "kilometer": 16.586
+    }
+]

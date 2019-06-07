@@ -99,3 +99,8 @@ definitions:
         type: "string"
         example: "加古川線"
         description: "路線名"
+      kilometer:
+        type: "number"
+        format: "float"
+        example: 2.086
+        description: "キロ程"
